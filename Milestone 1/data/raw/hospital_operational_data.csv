@@ -1,0 +1,7 @@
+Hospital_ID,Department_Name,Total_Beds,Occupied_Beds,Available_Medical_Equipment,Staff_Allocation_Count,Region
+HOSP-001,Emergency,75,47,Not Available in Source Data,Not Available,Not Specified
+HOSP-001,ICU,65,52,Not Available in Source Data,12.0,Not Specified
+HOSP-001,Internal Medicine,65,40,Not Available in Source Data,Not Available,Not Specified
+HOSP-001,Orthopedics,50,31,Not Available in Source Data,11.0,Not Specified
+HOSP-001,Pediatrics,70,43,Not Available in Source Data,10.0,Not Specified
+HOSP-001,Surgery,90,57,Not Available in Source Data,6.0,Not Specified
