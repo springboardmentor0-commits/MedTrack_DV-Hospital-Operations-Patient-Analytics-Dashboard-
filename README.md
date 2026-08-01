@@ -46,22 +46,51 @@ MedTrack_DV/
 
 ---
 
+## Milestone 2 Status: KPI Engineering and Dashboard Planning (Completed)
+
+### Module 3: Hospital KPI Engineering
+- **Deliverables**:
+  - `data/hospital_final_dataset.xlsx` (and `hospital_final_dataset.xlsx`)
+  - `scripts/generate_hospital_kpis.py`
+- **Evaluation Criteria**:
+  - All KPIs calculated: Total Admissions (5,015), Occupancy Rate (82.06%), ALOS (5.12 Days), 30-Day Readmission Rate (13.02%), Bed Utilization Rate (82.06%), Department Efficiency Score (72.99).
+  - Dataset optimized for Tableau Desktop/Public with multiple structured sheets.
+
+### Module 4: Dashboard Planning & Prototyping
+- **Deliverables**:
+  - `docs/dashboard_storyboard.pdf`
+  - `dashboard/medtrack_prototype.twbx` (and `medtrack_prototype.twbx`)
+- **Evaluation Criteria**:
+  - Wireframes and interactive storyboard layout specs approved.
+  - Packaged Tableau prototype workbook (.twbx) initialized.
+
+---
+
 ## How to Run in VS Code
 
 1. **Open Workspace in VS Code**:
-   Open the folder `C:\Users\manda\.gemini\antigravity\scratch\MedTrack_DV` in VS Code.
+   Open `C:\Users\manda\Documents\Infosys Hospital Analysis\MedTrack_DV` in VS Code.
 
 2. **Run Data Collection**:
-   ```bash
+   ```powershell
    python scripts/data_collection.py
    ```
 
 3. **Execute Data Cleaning Notebook**:
-   - Open `hospital_cleaning.ipynb` in VS Code Jupyter extension and click **Run All**, or
-   - Run via terminal:
-     ```bash
-     python scripts/run_cleaning.py
-     ```
+   ```powershell
+   python scripts/run_cleaning.py
+   ```
+
+4. **Generate Hospital KPIs & Excel Workbook**:
+   ```powershell
+   python scripts/generate_hospital_kpis.py
+   ```
+
+5. **Generate Storyboard & Prototype Deliverables**:
+   ```powershell
+   python scripts/generate_storyboard.py
+   python scripts/build_tableau_prototype.py
+   ```
 
 ---
 

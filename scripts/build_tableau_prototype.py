@@ -1,0 +1,162 @@
+import os
+import zipfile
+import xml.etree.ElementTree as ET
+
+def create_tableau_workbook_prototype():
+    project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    dashboard_dir = os.path.join(project_dir, 'dashboard')
+    os.makedirs(dashboard_dir, exist_ok=True)
+    
+    excel_rel_path = 'data/hospital_final_dataset.xlsx'
+    
+    twb_content = f'''<?xml me='1.0' encoding='utf-8' ?>
+<workbook original-version='18.1' source-build='2024.1.0' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='24' />
+  </preferences>
+  <datasources>
+    <datasource caption='MedTrack Hospital Analytics (hospital_final_dataset)' inline='true' name='excel.medtrack_dataset' version='18.1'>
+      <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='{excel_rel_path}' interpretationMode='0' password='' server='' validate='no'>
+        <relation name='Patient_Analytics' table='[Patient_Analytics$]' type='table'>
+          <columns gridOrigin='A1:V5016:no:A1:V5016:0' header='yes' outcome='2'>
+            <column datatype='string' name='Patient_ID' ordinal='0' />
+            <column datatype='string' name='Patient_Name' ordinal='1' />
+            <column datatype='integer' name='Age' ordinal='2' />
+            <column datatype='string' name='Gender' ordinal='3' />
+            <column datatype='string' name='Hospital_Name' ordinal='4' />
+            <column datatype='string' name='Region' ordinal='5' />
+            <column datatype='string' name='Department' ordinal='6' />
+            <column datatype='string' name='Patient_Type' ordinal='7' />
+            <column datatype='string' name='Admission_Type' ordinal='8' />
+            <column datatype='string' name='Severity' ordinal='9' />
+            <column datatype='date' name='Admission_Date' ordinal='10' />
+            <column datatype='date' name='Discharge_Date' ordinal='11' />
+            <column datatype='integer' name='Length_of_Stay' ordinal='12' />
+            <column datatype='string' name='Readmitted_30_Days' ordinal='13' />
+            <column datatype='real' name='Bed_Utilization_Pct' ordinal='14' />
+            <column datatype='integer' name='Staff_Assigned' ordinal='15' />
+            <column datatype='string' name='Equipment_Used' ordinal='16' />
+            <column datatype='real' name='Treatment_Cost' ordinal='17' />
+            <column datatype='real' name='Satisfaction_Score' ordinal='18' />
+            <column datatype='string' name='Admission_Month' ordinal='19' />
+            <column datatype='real' name='Daily_Treatment_Cost' ordinal='20' />
+            <column datatype='real' name='Dept_Efficiency_Score' ordinal='21' />
+          </columns>
+        </relation>
+      </connection>
+      <column datatype='string' name='[Department]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Hospital_Name]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Patient_Type]' role='dimension' type='nominal' />
+      <column datatype='real' name='[Bed_Utilization_Pct]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Dept_Efficiency_Score]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Treatment_Cost]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Length_of_Stay]' role='measure' type='quantitative' />
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='v_Hospital_Overview'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='MedTrack Hospital Analytics' name='excel.medtrack_dataset' />
+          </datasources>
+        </view>
+        <style />
+        <panes />
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='v_Patient_Flow'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='MedTrack Hospital Analytics' name='excel.medtrack_dataset' />
+          </datasources>
+        </view>
+        <style />
+        <panes />
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='v_Department_Analytics'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='MedTrack Hospital Analytics' name='excel.medtrack_dataset' />
+          </datasources>
+        </view>
+        <style />
+        <panes />
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='v_Resource_Utilization'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='MedTrack Hospital Analytics' name='excel.medtrack_dataset' />
+          </datasources>
+        </view>
+        <style />
+        <panes />
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='1. Hospital Overview'>
+      <style />
+      <size maxheight='1080' maxwidth='1920' minheight='800' minwidth='1200' preset-name='Desktop Browser' />
+      <zones />
+    </dashboard>
+    <dashboard name='2. Patient Flow'>
+      <style />
+      <size maxheight='1080' maxwidth='1920' minheight='800' minwidth='1200' preset-name='Desktop Browser' />
+      <zones />
+    </dashboard>
+    <dashboard name='3. Department Analytics'>
+      <style />
+      <size maxheight='1080' maxwidth='1920' minheight='800' minwidth='1200' preset-name='Desktop Browser' />
+      <zones />
+    </dashboard>
+    <dashboard name='4. Resource Utilization'>
+      <style />
+      <size maxheight='1080' maxwidth='1920' minheight='800' minwidth='1200' preset-name='Desktop Browser' />
+      <zones />
+    </dashboard>
+  </dashboards>
+  <windows>
+    <window class='dashboard' maximized='true' name='1. Hospital Overview'>
+      <active pane='0' />
+    </window>
+  </windows>
+</workbook>
+'''
+
+    twb_path = os.path.join(dashboard_dir, 'medtrack_prototype.twb')
+    with open(twb_path, 'w', encoding='utf-8') as f:
+        f.write(twb_content)
+        
+    twbx_path_dash = os.path.join(dashboard_dir, 'medtrack_prototype.twbx')
+    twbx_path_root = os.path.join(project_dir, 'medtrack_prototype.twbx')
+    
+    excel_source = os.path.join(project_dir, 'data', 'hospital_final_dataset.xlsx')
+    
+    for target_twbx in [twbx_path_dash, twbx_path_root]:
+        with zipfile.ZipFile(target_twbx, 'w', zipfile.ZIP_DEFLATED) as z:
+            z.write(twb_path, arcname='medtrack_prototype.twb')
+            if os.path.exists(excel_source):
+                z.write(excel_source, arcname='Data/hospital_final_dataset.xlsx')
+                
+    print(f"Generated Tableau workbook prototype (.twb) and packaged workbook (.twbx) at:")
+    print(f"  - {twbx_path_dash}")
+    print(f"  - {twbx_path_root}")
+
+if __name__ == '__main__':
+    create_tableau_workbook_prototype()
