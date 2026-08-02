@@ -1,0 +1,8 @@
+# Scripts
+
+This folder contains Python scripts used in the MedTrack DV – Hospital Operations & Patient Analytics Dashboard project.
+
+## Files
+
+- `data_collection.py` – Loads and validates the hospital dataset.
+- `generate_hospital_kpis.py` – Calculates key performance indicators (KPIs).
