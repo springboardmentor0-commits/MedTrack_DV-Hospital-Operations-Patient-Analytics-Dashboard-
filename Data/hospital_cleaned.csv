@@ -1,0 +1,201 @@
+Patient ID,Patient Name,Age,Gender,Blood Group,Ward,Admission Date,Discharge Date,Department,Doctor Name,Diagnosis,Treatment Type,Surgery Flag,Bed Status,Wait Time (mins),Length of Stay (days),Bill Amount,Insurance Covered,Patient Satisfaction (1-10),Re-admission Flag
+PT0001,Patient_001,34,Female,AB-,Semi-Private,2024-05-24,2024-05-31,Orthopaedics,Dr. Reddy,Appendicitis,Medical,No,Available,64,7,144893,85029,4.3,No
+PT0002,Patient_002,34,Female,O+,Private Ward,2024-07-30,2024-07-31,Paediatrics,Dr. Singh,Fever,Surgical,Yes,Available,77,1,63005,48578,8.5,No
+PT0003,Patient_003,83,Female,AB-,Private Ward,2024-09-12,2024-09-21,ENT,Dr. Rao,Migraine,Medical,No,Available,88,9,184528,88490,5.4,No
+PT0004,Patient_004,7,Male,AB+,Private Ward,2024-10-04,2024-10-15,Paediatrics,Dr. Patel,Migraine,Medical,No,Occupied,12,11,142348,4433,5.6,Yes
+PT0005,Patient_005,1,Female,A+,General Ward,2024-07-10,2024-07-11,General Medicine,Dr. Mehta,Diabetes,Surgical,Yes,Occupied,84,1,172176,126669,8.3,No
+PT0006,Patient_006,20,Male,B-,Emergency,2024-12-11,2024-12-18,General Medicine,Dr. Mehta,Appendicitis,Medical,No,Available,108,7,51993,7013,4.6,Yes
+PT0007,Patient_007,11,Male,A-,Semi-Private,2024-07-10,2024-07-17,Dermatology,Dr. Iyer,Back Pain,Medical,No,Occupied,63,7,153111,31877,1.1,No
+PT0008,Patient_008,13,Male,B-,Private Ward,2024-03-28,2024-03-30,Oncology,Dr. Mehta,Hypertension,Medical,No,Available,68,2,118746,84529,7.2,No
+PT0009,Patient_009,41,Male,B-,Emergency,2024-05-23,2024-06-07,Neurology,Dr. Iyer,Fracture,Surgical,Yes,Available,74,15,152720,86259,6.1,Yes
+PT0010,Patient_010,18,Male,O-,General Ward,2024-10-17,2024-10-31,Orthopaedics,Dr. Iyer,Fever,Medical,No,Available,113,14,107015,70852,4.1,No
+PT0011,Patient_011,63,Male,O-,Emergency,2024-11-10,2024-11-20,Dermatology,Dr. Iyer,Migraine,Medical,No,Available,55,10,90557,3883,6.9,No
+PT0012,Patient_012,35,Male,AB+,Private Ward,2024-02-13,2024-02-26,Dermatology,Dr. Singh,Appendicitis,Surgical,Yes,Available,84,13,82431,32302,1,Yes
+PT0013,Patient_013,24,Female,AB-,Emergency,2024-06-06,2024-06-14,General Medicine,Dr. Iyer,Fracture,Surgical,Yes,Occupied,51,8,75717,6699,4.2,No
+PT0014,Patient_014,53,Female,A-,Emergency,2024-02-17,2024-02-27,Paediatrics,Dr. Rao,Asthma,Medical,No,Available,81,10,90047,50493,3.4,Yes
+PT0015,Patient_015,54,Female,AB-,General Ward,2024-05-17,2024-05-25,ENT,Dr. Mehta,Fever,Medical,No,Available,23,8,21585,5479,5.5,No
+PT0016,Patient_016,51,Female,AB+,ICU,2024-11-11,2024-11-15,Oncology,Dr. Singh,Asthma,Surgical,Yes,Available,63,4,33042,4439,8.7,No
+PT0017,Patient_017,23,Female,O-,ICU,2024-10-31,2024-11-03,Oncology,Dr. Nair,Appendicitis,Medical,No,Available,43,3,89060,26326,8.3,No
+PT0018,Patient_018,71,Male,AB-,Private Ward,2024-07-20,2024-07-26,Oncology,Dr. Mehta,Fracture,Medical,No,Available,19,6,152810,26188,8.2,No
+PT0019,Patient_019,85,Male,AB+,Semi-Private,2024-07-28,2024-08-08,Orthopaedics,Dr. Reddy,Back Pain,Medical,No,Available,68,11,41484,19846,5.8,No
+PT0020,Patient_020,32,Female,B+,Emergency,2024-12-20,2024-12-27,Cardiology,Dr. Iyer,Appendicitis,Surgical,Yes,Available,74,7,14637,5890,4.9,Yes
+PT0021,Patient_021,48,Female,AB-,Emergency,2024-01-06,2024-01-08,General Medicine,Dr. Rao,Appendicitis,Medical,No,Available,38,2,63196,33467,5.3,No
+PT0022,Patient_022,40,Female,AB-,Private Ward,2024-05-31,2024-06-07,General Medicine,Dr. Reddy,Appendicitis,Medical,No,Available,15,7,35426,27240,4.9,No
+PT0023,Patient_023,15,Male,O-,General Ward,2024-12-22,2024-12-30,Neurology,Dr. Nair,Migraine,Medical,No,Available,45,8,22609,9839,4,Yes
+PT0024,Patient_024,82,Female,AB+,General Ward,2024-08-06,2024-08-14,Paediatrics,Dr. Reddy,Asthma,Surgical,Yes,Available,34,8,111180,82543,7.3,No
+PT0025,Patient_025,24,Female,O-,Private Ward,2024-04-15,2024-04-20,Oncology,Dr. Patel,Diabetes,Medical,No,Available,101,5,189486,16400,5.4,Yes
+PT0026,Patient_026,15,Female,O-,Semi-Private,2024-11-23,2024-11-29,Neurology,Dr. Mehta,Fracture,Medical,No,Available,81,6,106879,80125,3.8,No
+PT0027,Patient_027,50,Female,B+,Emergency,2024-05-02,2024-05-07,Dermatology,Dr. Iyer,Migraine,Medical,No,Available,19,5,52984,24464,5.8,No
+PT0028,Patient_028,18,Male,O-,Semi-Private,2024-11-26,2024-12-11,Cardiology,Dr. Singh,Hypertension,Medical,No,Available,27,15,150467,21871,2.8,No
+PT0029,Patient_029,63,Female,AB-,Semi-Private,2024-07-15,2024-07-24,Neurology,Dr. Patel,Hypertension,Medical,No,Available,69,9,176198,129753,3,No
+PT0030,Patient_030,73,Female,A-,Emergency,2024-01-17,2024-01-22,Orthopaedics,Dr. Mehta,Appendicitis,Medical,No,Available,33,5,145930,37836,7.8,No
+PT0031,Patient_031,5,Female,O+,ICU,2024-08-13,2024-08-22,Orthopaedics,Dr. Reddy,Fracture,Medical,No,Available,32,9,116451,13423,3.1,No
+PT0032,Patient_032,18,Male,B-,General Ward,2024-10-28,2024-11-09,ENT,Dr. Mehta,Migraine,Medical,No,Available,49,12,191319,112241,7.3,No
+PT0033,Patient_033,53,Male,O+,Private Ward,2024-05-28,2024-06-07,Neurology,Dr. Nair,Migraine,Surgical,Yes,Available,39,10,139850,89037,8.5,Yes
+PT0034,Patient_034,58,Male,A-,Semi-Private,2024-12-12,2024-12-19,General Medicine,Dr. Mehta,Appendicitis,Medical,No,Available,67,7,42269,17610,5.4,No
+PT0035,Patient_035,46,Male,AB+,Private Ward,2024-10-24,2024-10-25,Dermatology,Dr. Nair,Back Pain,Medical,No,Available,116,1,197079,24416,8.5,No
+PT0036,Patient_036,7,Male,A-,Semi-Private,2024-06-21,2024-06-30,Cardiology,Dr. Patel,Migraine,Medical,No,Available,78,9,39234,18551,1,No
+PT0037,Patient_037,36,Male,O-,ICU,2024-08-07,2024-08-11,Orthopaedics,Dr. Singh,Migraine,Surgical,Yes,Occupied,93,4,39580,28906,6.6,No
+PT0038,Patient_038,13,Male,B-,Semi-Private,2024-12-24,2025-01-06,Orthopaedics,Dr. Rao,Fever,Medical,No,Available,34,13,117520,85915,5,Yes
+PT0039,Patient_039,17,Female,A-,Private Ward,2024-01-05,2024-01-17,Dermatology,Dr. Patel,Fracture,Medical,No,Available,48,12,36612,28191,4.3,No
+PT0040,Patient_040,68,Male,B+,Semi-Private,2024-06-02,2024-06-05,ENT,Dr. Nair,Migraine,Surgical,Yes,Available,53,3,39903,21023,6.5,No
+PT0041,Patient_041,76,Female,O-,Semi-Private,2024-08-14,2024-08-28,ENT,Dr. Rao,Fever,Surgical,Yes,Available,32,14,27724,3292,1.8,No
+PT0042,Patient_042,39,Male,B-,Semi-Private,2024-10-10,2024-10-20,Gynaecology,Dr. Sharma,Fever,Medical,No,Available,81,10,194052,74690,2,Yes
+PT0043,Patient_043,41,Male,AB+,Emergency,2024-09-12,2024-09-23,Dermatology,Dr. Singh,Migraine,Medical,No,Available,81,11,23615,17310,9.6,Yes
+PT0044,Patient_044,6,Male,AB+,Emergency,2024-02-07,2024-02-08,Gynaecology,Dr. Iyer,Asthma,Surgical,Yes,Available,80,1,22703,451,1.7,No
+PT0045,Patient_045,11,Male,B+,Emergency,2024-10-01,2024-10-10,ENT,Dr. Iyer,Fracture,Medical,No,Available,83,9,45024,18184,4.9,Yes
+PT0046,Patient_046,79,Male,O+,Private Ward,2024-05-02,2024-05-03,Orthopaedics,Dr. Sharma,Migraine,Medical,No,Available,36,1,27600,14237,2.5,Yes
+PT0047,Patient_047,17,Female,A-,General Ward,2024-06-26,2024-07-05,ENT,Dr. Iyer,Diabetes,Medical,No,Available,71,9,193944,67960,3.4,No
+PT0048,Patient_048,64,Male,O-,Private Ward,2024-10-22,2024-11-02,Gynaecology,Dr. Patel,Fracture,Surgical,Yes,Available,14,11,135062,59663,5.6,No
+PT0049,Patient_049,47,Female,B+,Private Ward,2024-01-23,2024-02-06,Cardiology,Dr. Iyer,Fever,Medical,No,Available,115,14,8221,2003,4.7,Yes
+PT0050,Patient_050,65,Male,B+,Private Ward,2024-06-12,2024-06-17,General Medicine,Dr. Sharma,Asthma,Surgical,Yes,Occupied,110,5,25417,18728,5.2,No
+PT0051,Patient_051,59,Male,O-,Private Ward,2024-05-24,2024-06-06,Gynaecology,Dr. Mehta,Fever,Medical,No,Available,113,13,86447,42899,6.3,Yes
+PT0052,Patient_052,1,Female,A+,Private Ward,2024-09-09,2024-09-22,General Medicine,Dr. Singh,Hypertension,Surgical,Yes,Available,104,13,56228,35819,1,No
+PT0053,Patient_053,68,Male,AB+,Semi-Private,2024-12-02,2024-12-09,Cardiology,Dr. Rao,Diabetes,Surgical,Yes,Occupied,113,7,198483,80612,9.3,Yes
+PT0054,Patient_054,13,Male,AB+,General Ward,2024-09-23,2024-09-30,Cardiology,Dr. Iyer,Migraine,Medical,No,Available,94,7,102646,60091,3.3,Yes
+PT0055,Patient_055,35,Male,A-,Private Ward,2024-06-10,2024-06-25,Neurology,Dr. Patel,Migraine,Medical,No,Available,107,15,108010,42762,5,No
+PT0056,Patient_056,40,Female,O+,General Ward,2024-06-09,2024-06-16,Orthopaedics,Dr. Rao,Diabetes,Medical,No,Available,20,7,145489,46961,7.3,No
+PT0057,Patient_057,32,Female,AB+,Emergency,2024-01-21,2024-01-25,Cardiology,Dr. Mehta,Diabetes,Medical,No,Available,111,4,90929,19441,2.6,Yes
+PT0058,Patient_058,60,Male,B+,General Ward,2024-07-26,2024-08-09,Cardiology,Dr. Sharma,Fever,Surgical,Yes,Available,62,14,150739,98052,8.4,No
+PT0059,Patient_059,3,Male,B-,Semi-Private,2024-07-09,2024-07-20,Neurology,Dr. Patel,Appendicitis,Surgical,Yes,Available,85,11,174000,22030,9.5,No
+PT0060,Patient_060,49,Female,B+,ICU,2024-01-26,2024-01-29,Paediatrics,Dr. Rao,Diabetes,Surgical,Yes,Available,78,3,118549,51773,9,No
+PT0061,Patient_061,53,Female,A+,General Ward,2024-01-18,2024-01-28,Gynaecology,Dr. Iyer,Migraine,Medical,No,Available,84,10,166736,64431,6.8,No
+PT0062,Patient_062,46,Female,AB-,ICU,2024-09-26,2024-09-30,General Medicine,Dr. Singh,Asthma,Medical,No,Available,85,4,147516,104182,1.2,Yes
+PT0063,Patient_063,46,Male,B+,General Ward,2024-11-01,2024-11-05,Paediatrics,Dr. Nair,Diabetes,Medical,No,Available,8,4,78644,3839,8.1,No
+PT0064,Patient_064,23,Male,B-,Emergency,2024-01-29,2024-02-11,ENT,Dr. Singh,Hypertension,Medical,No,Available,33,13,155914,110953,4.2,No
+PT0065,Patient_065,40,Male,AB-,General Ward,2024-10-17,2024-10-27,Orthopaedics,Dr. Sharma,Fever,Medical,No,Available,23,10,152615,24672,1.2,No
+PT0066,Patient_066,23,Female,A+,General Ward,2024-09-01,2024-09-02,Neurology,Dr. Rao,Fracture,Medical,No,Available,47,1,165991,52812,8.7,No
+PT0067,Patient_067,39,Female,B+,Private Ward,2024-02-07,2024-02-13,Dermatology,Dr. Reddy,Appendicitis,Medical,No,Available,95,6,178575,103703,9.7,Yes
+PT0068,Patient_068,40,Female,B+,Private Ward,2024-12-21,2025-01-05,Cardiology,Dr. Iyer,Hypertension,Medical,No,Available,83,15,98539,29260,3.9,No
+PT0069,Patient_069,43,Male,B-,ICU,2024-11-09,2024-11-13,ENT,Dr. Rao,Fracture,Surgical,Yes,Available,86,4,153255,13645,7,No
+PT0070,Patient_070,9,Female,O+,General Ward,2024-06-20,2024-06-28,Cardiology,Dr. Sharma,Asthma,Medical,No,Available,6,8,74523,13741,4.8,No
+PT0071,Patient_071,49,Male,AB-,Emergency,2024-03-26,2024-04-10,Paediatrics,Dr. Rao,Back Pain,Medical,No,Occupied,57,15,134258,49638,8.6,No
+PT0072,Patient_072,22,Female,B+,General Ward,2024-05-30,2024-05-31,General Medicine,Dr. Patel,Appendicitis,Medical,No,Available,45,1,73453,6863,6.5,Yes
+PT0073,Patient_073,56,Male,A+,General Ward,2024-09-04,2024-09-16,ENT,Dr. Nair,Fever,Medical,No,Available,8,12,118068,85673,6,No
+PT0074,Patient_074,7,Female,AB-,Private Ward,2024-10-03,2024-10-08,Cardiology,Dr. Singh,Hypertension,Surgical,Yes,Available,89,5,78799,19490,3.7,No
+PT0075,Patient_075,27,Male,O+,General Ward,2024-12-04,2024-12-15,Oncology,Dr. Patel,Diabetes,Surgical,Yes,Available,81,11,130915,26171,5.2,Yes
+PT0076,Patient_076,49,Female,B+,Semi-Private,2024-12-04,2024-12-09,Cardiology,Dr. Mehta,Back Pain,Medical,No,Available,16,5,173261,101587,3,No
+PT0077,Patient_077,45,Female,B-,Emergency,2024-05-17,2024-05-27,Cardiology,Dr. Iyer,Asthma,Medical,No,Available,12,10,44617,6337,7.2,Yes
+PT0078,Patient_078,51,Male,B+,General Ward,2024-08-31,2024-09-10,Oncology,Dr. Rao,Migraine,Surgical,Yes,Available,117,10,66772,31212,8.3,No
+PT0079,Patient_079,19,Female,O-,General Ward,2024-03-05,2024-03-06,Orthopaedics,Dr. Iyer,Asthma,Medical,No,Available,59,1,25543,14266,8.7,No
+PT0080,Patient_080,54,Male,B+,Emergency,2024-09-23,2024-10-01,Orthopaedics,Dr. Patel,Fracture,Surgical,Yes,Available,116,8,8241,6443,8.8,No
+PT0081,Patient_081,78,Female,A+,Private Ward,2024-06-25,2024-07-10,Gynaecology,Dr. Iyer,Migraine,Medical,No,Available,57,15,74241,25103,7.1,No
+PT0082,Patient_082,61,Female,O-,General Ward,2024-07-24,2024-07-25,ENT,Dr. Mehta,Diabetes,Medical,No,Available,55,1,91899,31139,5.4,Yes
+PT0083,Patient_083,57,Female,O+,Semi-Private,2024-12-22,2025-01-02,Orthopaedics,Dr. Nair,Back Pain,Medical,No,Available,17,11,64757,8807,8.4,No
+PT0084,Patient_084,40,Female,B+,Emergency,2024-09-05,2024-09-18,Cardiology,Dr. Rao,Fever,Surgical,Yes,Available,71,13,103018,7367,2.8,No
+PT0085,Patient_085,26,Female,O-,Semi-Private,2024-01-30,2024-02-03,General Medicine,Dr. Iyer,Fracture,Medical,No,Available,9,4,124655,6626,3.2,No
+PT0086,Patient_086,21,Female,A-,ICU,2024-09-07,2024-09-17,Cardiology,Dr. Iyer,Hypertension,Medical,No,Available,62,10,51552,31102,6.2,No
+PT0087,Patient_087,84,Female,A+,General Ward,2024-04-19,2024-05-03,Oncology,Dr. Rao,Migraine,Medical,No,Available,33,14,174706,59011,1.1,No
+PT0088,Patient_088,45,Female,O+,Private Ward,2024-05-09,2024-05-19,Oncology,Dr. Mehta,Asthma,Medical,No,Available,108,10,85074,36094,1.1,No
+PT0089,Patient_089,14,Female,A-,ICU,2024-12-05,2024-12-19,Gynaecology,Dr. Singh,Diabetes,Medical,No,Available,112,14,103102,73591,7.4,No
+PT0090,Patient_090,77,Female,O-,Private Ward,2024-11-29,2024-12-04,Cardiology,Dr. Reddy,Diabetes,Surgical,Yes,Available,29,5,44303,33901,4.8,No
+PT0091,Patient_091,29,Female,O-,Emergency,2024-07-17,2024-07-29,Gynaecology,Dr. Rao,Migraine,Medical,No,Available,9,12,157836,92808,5.2,No
+PT0092,Patient_092,43,Male,B-,ICU,2024-05-12,2024-05-24,Paediatrics,Dr. Mehta,Asthma,Medical,No,Available,108,12,151546,99997,4,No
+PT0093,Patient_093,82,Male,AB-,Private Ward,2024-05-13,2024-05-23,General Medicine,Dr. Patel,Asthma,Surgical,Yes,Available,42,10,126572,15437,4.7,No
+PT0094,Patient_094,41,Male,A-,Semi-Private,2024-03-18,2024-03-21,ENT,Dr. Rao,Appendicitis,Surgical,Yes,Available,30,3,94828,53633,1,No
+PT0095,Patient_095,12,Male,AB+,Semi-Private,2024-05-20,2024-05-24,Dermatology,Dr. Iyer,Back Pain,Medical,No,Available,102,4,49198,37767,1.3,No
+PT0096,Patient_096,1,Male,B-,ICU,2024-04-12,2024-04-24,Gynaecology,Dr. Rao,Fracture,Surgical,Yes,Available,52,12,8690,2639,6.3,No
+PT0097,Patient_097,67,Female,AB+,Private Ward,2024-03-26,2024-03-28,ENT,Dr. Reddy,Appendicitis,Medical,No,Available,110,2,16984,4885,2.5,No
+PT0098,Patient_098,3,Male,A-,ICU,2024-07-25,2024-07-26,Cardiology,Dr. Iyer,Diabetes,Surgical,Yes,Available,34,1,63804,47655,6.6,No
+PT0099,Patient_099,15,Female,AB-,Semi-Private,2024-10-31,2024-11-01,Orthopaedics,Dr. Mehta,Back Pain,Surgical,Yes,Available,89,1,33341,21416,2.8,Yes
+PT0100,Patient_100,67,Female,B+,Semi-Private,2024-12-17,2024-12-28,Orthopaedics,Dr. Patel,Diabetes,Medical,No,Available,6,11,83935,55164,2,Yes
+PT0101,Patient_101,53,Female,B+,General Ward,2024-04-11,2024-04-21,General Medicine,Dr. Reddy,Fever,Medical,No,Available,30,10,73942,54493,5.3,No
+PT0102,Patient_102,64,Male,A-,Emergency,2024-04-30,2024-05-01,Orthopaedics,Dr. Patel,Diabetes,Medical,No,Available,6,1,181064,23331,5.1,Yes
+PT0103,Patient_103,38,Female,O-,Semi-Private,2024-05-31,2024-06-05,Orthopaedics,Dr. Patel,Hypertension,Surgical,Yes,Occupied,64,5,18128,1635,2.2,No
+PT0104,Patient_104,12,Female,O-,Private Ward,2024-11-27,2024-11-30,Orthopaedics,Dr. Iyer,Asthma,Medical,No,Available,47,3,98723,57372,3.4,No
+PT0105,Patient_105,17,Male,B+,General Ward,2024-07-16,2024-07-28,Dermatology,Dr. Reddy,Back Pain,Surgical,Yes,Available,113,12,130369,55278,4.4,No
+PT0106,Patient_106,15,Female,AB-,General Ward,2024-07-02,2024-07-12,Orthopaedics,Dr. Mehta,Appendicitis,Medical,No,Occupied,8,10,184428,34250,8.8,No
+PT0107,Patient_107,44,Male,AB+,Private Ward,2024-09-25,2024-10-08,Oncology,Dr. Singh,Asthma,Medical,No,Available,100,13,156165,94866,8.4,No
+PT0108,Patient_108,22,Male,AB-,ICU,2024-11-09,2024-11-10,Paediatrics,Dr. Singh,Diabetes,Medical,No,Occupied,6,1,173663,41137,3,No
+PT0109,Patient_109,74,Female,A-,Semi-Private,2024-11-25,2024-12-02,Oncology,Dr. Singh,Fracture,Medical,No,Available,56,7,66603,5166,7.7,No
+PT0110,Patient_110,78,Female,B-,Semi-Private,2024-01-10,2024-01-12,ENT,Dr. Singh,Hypertension,Surgical,Yes,Available,56,2,113092,4696,8.6,Yes
+PT0111,Patient_111,58,Male,A-,Private Ward,2024-06-18,2024-06-27,Cardiology,Dr. Singh,Appendicitis,Medical,No,Available,103,9,167465,124029,9.7,No
+PT0112,Patient_112,64,Male,AB+,General Ward,2024-05-29,2024-06-07,Gynaecology,Dr. Nair,Fever,Surgical,Yes,Available,71,9,103013,13935,8.7,Yes
+PT0113,Patient_113,6,Male,AB-,Semi-Private,2024-04-20,2024-04-28,General Medicine,Dr. Rao,Back Pain,Medical,No,Occupied,110,8,54959,22146,7.6,Yes
+PT0114,Patient_114,75,Male,B+,General Ward,2024-10-10,2024-10-25,Dermatology,Dr. Singh,Asthma,Medical,No,Available,60,15,158385,63298,6.5,No
+PT0115,Patient_115,58,Male,B+,Semi-Private,2024-12-20,2025-01-02,General Medicine,Dr. Mehta,Appendicitis,Medical,No,Available,36,13,76721,26074,9.4,No
+PT0116,Patient_116,45,Male,B+,Emergency,2024-11-19,2024-11-23,General Medicine,Dr. Singh,Fracture,Medical,No,Available,30,4,59974,40905,6.1,No
+PT0117,Patient_117,2,Male,A+,Semi-Private,2024-10-25,2024-11-04,Neurology,Dr. Sharma,Hypertension,Medical,No,Available,90,10,191154,109439,7.8,No
+PT0118,Patient_118,38,Male,A+,ICU,2024-03-23,2024-03-28,Oncology,Dr. Patel,Fever,Medical,No,Available,92,5,70683,9596,6.1,Yes
+PT0119,Patient_119,50,Female,O-,Emergency,2024-05-01,2024-05-10,Cardiology,Dr. Sharma,Diabetes,Medical,No,Available,105,9,187485,75402,8.8,Yes
+PT0120,Patient_120,25,Female,AB-,Private Ward,2024-08-14,2024-08-28,Orthopaedics,Dr. Rao,Migraine,Medical,No,Available,33,14,171143,96401,2.1,No
+PT0121,Patient_121,75,Female,A+,ICU,2024-01-21,2024-01-28,Oncology,Dr. Rao,Hypertension,Surgical,Yes,Available,40,7,150908,34634,3.9,No
+PT0122,Patient_122,71,Female,A-,ICU,2024-01-27,2024-02-09,General Medicine,Dr. Nair,Migraine,Medical,No,Available,85,13,166378,78945,8.1,No
+PT0123,Patient_123,29,Male,O-,ICU,2024-03-22,2024-03-29,ENT,Dr. Mehta,Fever,Medical,No,Available,74,7,145780,52876,6.6,Yes
+PT0124,Patient_124,45,Female,B-,Emergency,2024-08-31,2024-09-09,Paediatrics,Dr. Sharma,Appendicitis,Medical,No,Available,110,9,175210,2307,8.2,Yes
+PT0125,Patient_125,67,Female,AB-,Semi-Private,2024-02-28,2024-03-06,Cardiology,Dr. Mehta,Fever,Surgical,Yes,Available,37,7,146619,94892,1.7,No
+PT0126,Patient_126,9,Male,B-,Semi-Private,2024-02-19,2024-02-22,Orthopaedics,Dr. Nair,Asthma,Medical,No,Available,103,3,146026,69888,9.5,Yes
+PT0127,Patient_127,12,Male,A+,Private Ward,2024-12-17,2024-12-20,Gynaecology,Dr. Patel,Fever,Surgical,Yes,Available,8,3,125383,93961,4.7,No
+PT0128,Patient_128,16,Male,A-,Emergency,2024-08-18,2024-08-29,Cardiology,Dr. Patel,Appendicitis,Medical,No,Available,56,11,118514,41471,2,Yes
+PT0129,Patient_129,51,Male,AB-,Private Ward,2024-12-17,2024-12-22,General Medicine,Dr. Nair,Migraine,Medical,No,Available,82,5,27676,9224,8.2,No
+PT0130,Patient_130,71,Male,A-,General Ward,2024-10-06,2024-10-11,Cardiology,Dr. Iyer,Fracture,Surgical,Yes,Available,86,5,42768,19533,7.7,No
+PT0131,Patient_131,24,Male,O+,Private Ward,2024-06-25,2024-06-29,Orthopaedics,Dr. Rao,Hypertension,Surgical,Yes,Available,57,4,174327,134362,9.4,No
+PT0132,Patient_132,9,Female,A-,Private Ward,2024-10-08,2024-10-16,Oncology,Dr. Singh,Appendicitis,Medical,No,Available,87,8,149091,9587,6.9,No
+PT0133,Patient_133,58,Female,O+,Emergency,2024-02-21,2024-02-26,Neurology,Dr. Singh,Appendicitis,Medical,No,Available,84,5,23299,6340,2.5,No
+PT0134,Patient_134,47,Male,O-,Semi-Private,2024-06-09,2024-06-13,Oncology,Dr. Reddy,Appendicitis,Medical,No,Available,105,4,63071,46674,5.4,No
+PT0135,Patient_135,69,Male,O+,General Ward,2024-02-25,2024-02-28,Orthopaedics,Dr. Sharma,Hypertension,Surgical,Yes,Available,87,3,164023,21488,6.2,No
+PT0136,Patient_136,20,Female,AB+,Private Ward,2024-10-29,2024-11-02,Gynaecology,Dr. Rao,Back Pain,Medical,No,Available,9,4,149597,34159,1.8,No
+PT0137,Patient_137,18,Female,B+,Private Ward,2024-07-05,2024-07-14,Neurology,Dr. Reddy,Appendicitis,Medical,No,Occupied,6,9,178717,62621,7.9,No
+PT0138,Patient_138,27,Female,AB+,Semi-Private,2024-04-28,2024-04-30,Oncology,Dr. Sharma,Hypertension,Medical,No,Available,38,2,101845,30673,3.9,Yes
+PT0139,Patient_139,70,Male,AB+,Semi-Private,2024-12-26,2025-01-04,ENT,Dr. Patel,Diabetes,Medical,No,Available,86,9,76695,54714,9.2,No
+PT0140,Patient_140,1,Male,AB-,Private Ward,2024-09-21,2024-09-28,Paediatrics,Dr. Patel,Diabetes,Medical,No,Available,50,7,95448,63813,2.7,No
+PT0141,Patient_141,43,Male,AB-,Semi-Private,2024-07-04,2024-07-14,Oncology,Dr. Nair,Migraine,Medical,No,Available,96,10,36019,21663,4.7,No
+PT0142,Patient_142,81,Male,B+,General Ward,2024-05-04,2024-05-05,Neurology,Dr. Mehta,Migraine,Surgical,Yes,Available,21,1,155336,77640,4.6,No
+PT0143,Patient_143,58,Female,AB-,Private Ward,2024-10-15,2024-10-26,Paediatrics,Dr. Iyer,Migraine,Surgical,Yes,Available,7,11,193625,74305,8.4,Yes
+PT0144,Patient_144,44,Female,A-,Private Ward,2024-04-03,2024-04-13,Dermatology,Dr. Iyer,Migraine,Medical,No,Available,89,10,138904,34671,2.8,No
+PT0145,Patient_145,79,Male,A-,General Ward,2024-09-15,2024-09-26,Oncology,Dr. Rao,Hypertension,Medical,No,Available,58,11,44206,6311,8,No
+PT0146,Patient_146,68,Female,B-,Semi-Private,2024-11-28,2024-12-05,Dermatology,Dr. Singh,Fracture,Medical,No,Available,71,7,115279,48546,3.3,Yes
+PT0147,Patient_147,25,Male,A+,Emergency,2024-04-29,2024-05-14,General Medicine,Dr. Patel,Hypertension,Medical,No,Available,114,15,26972,9282,2.8,No
+PT0148,Patient_148,75,Female,O+,Emergency,2024-06-10,2024-06-17,Dermatology,Dr. Singh,Diabetes,Medical,No,Available,51,7,32940,5071,4.6,No
+PT0149,Patient_149,72,Female,O+,ICU,2024-04-14,2024-04-21,ENT,Dr. Iyer,Migraine,Medical,No,Available,75,7,151161,63238,6.9,No
+PT0150,Patient_150,66,Female,O-,Emergency,2024-04-27,2024-05-05,Cardiology,Dr. Rao,Asthma,Surgical,Yes,Available,105,8,188320,42413,1,Yes
+PT0151,Patient_151,9,Female,B-,ICU,2024-02-16,2024-03-01,Orthopaedics,Dr. Sharma,Asthma,Surgical,Yes,Available,23,14,128645,78675,4.6,No
+PT0152,Patient_152,64,Female,A+,Private Ward,2024-12-01,2024-12-10,General Medicine,Dr. Mehta,Fever,Medical,No,Occupied,41,9,191543,15063,6.4,No
+PT0153,Patient_153,31,Male,B+,General Ward,2024-09-21,2024-10-03,Gynaecology,Dr. Iyer,Appendicitis,Medical,No,Available,34,12,166268,44428,4.6,Yes
+PT0154,Patient_154,37,Female,O-,ICU,2024-04-12,2024-04-21,Paediatrics,Dr. Nair,Back Pain,Medical,No,Available,6,9,198180,17987,6.2,Yes
+PT0155,Patient_155,38,Female,A-,Emergency,2024-05-13,2024-05-16,Gynaecology,Dr. Mehta,Back Pain,Medical,No,Available,57,3,137707,13954,6.1,Yes
+PT0156,Patient_156,4,Female,A-,ICU,2024-05-04,2024-05-17,Orthopaedics,Dr. Iyer,Fever,Medical,No,Available,48,13,125284,89337,3.1,No
+PT0157,Patient_157,34,Male,O+,General Ward,2024-06-10,2024-06-17,Dermatology,Dr. Singh,Fracture,Medical,No,Available,50,7,140398,70208,2.6,Yes
+PT0158,Patient_158,25,Female,B-,Private Ward,2024-06-09,2024-06-15,Paediatrics,Dr. Mehta,Fever,Medical,No,Available,32,6,155395,35268,8.5,No
+PT0159,Patient_159,85,Female,A+,Emergency,2024-11-12,2024-11-18,Cardiology,Dr. Reddy,Appendicitis,Medical,No,Available,24,6,32967,3928,5.4,Yes
+PT0160,Patient_160,29,Male,A+,Emergency,2024-10-21,2024-11-04,Dermatology,Dr. Reddy,Hypertension,Medical,No,Available,40,14,133661,23969,4.5,No
+PT0161,Patient_161,2,Male,B-,Semi-Private,2024-12-17,2024-12-30,Orthopaedics,Dr. Singh,Appendicitis,Medical,No,Available,27,13,124851,15776,3.3,No
+PT0162,Patient_162,24,Female,AB+,Private Ward,2024-10-07,2024-10-12,Dermatology,Dr. Singh,Appendicitis,Medical,No,Available,35,5,75623,30890,3.5,No
+PT0163,Patient_163,35,Male,AB+,Semi-Private,2024-04-02,2024-04-12,Paediatrics,Dr. Rao,Migraine,Surgical,Yes,Available,21,10,155966,89916,1.1,No
+PT0164,Patient_164,39,Female,A+,Semi-Private,2024-08-03,2024-08-11,Orthopaedics,Dr. Rao,Hypertension,Medical,No,Available,22,8,170321,135530,3.3,No
+PT0165,Patient_165,72,Female,O-,General Ward,2024-11-18,2024-11-20,Dermatology,Dr. Patel,Appendicitis,Medical,No,Available,62,2,92728,34048,9.7,No
+PT0166,Patient_166,42,Female,AB-,General Ward,2024-04-11,2024-04-21,Dermatology,Dr. Mehta,Back Pain,Medical,No,Available,78,10,175358,45754,2.3,No
+PT0167,Patient_167,11,Male,O-,Private Ward,2024-03-26,2024-04-06,ENT,Dr. Singh,Diabetes,Surgical,Yes,Available,108,11,93444,55288,6.4,No
+PT0168,Patient_168,22,Male,A+,Private Ward,2024-07-21,2024-07-26,Paediatrics,Dr. Mehta,Fracture,Medical,No,Available,118,5,121627,47600,4.6,No
+PT0169,Patient_169,51,Male,A-,ICU,2024-02-18,2024-02-20,Neurology,Dr. Patel,Asthma,Surgical,Yes,Available,117,2,129042,71884,3.2,Yes
+PT0170,Patient_170,5,Female,O-,Semi-Private,2024-05-25,2024-06-02,Oncology,Dr. Mehta,Back Pain,Surgical,Yes,Available,85,8,38138,4301,9.5,No
+PT0171,Patient_171,82,Female,O-,Semi-Private,2024-10-03,2024-10-06,General Medicine,Dr. Nair,Fracture,Medical,No,Available,80,3,161653,59840,4.3,No
+PT0172,Patient_172,37,Female,A+,Semi-Private,2024-05-13,2024-05-16,Oncology,Dr. Mehta,Hypertension,Medical,No,Available,43,3,7767,0,8.2,No
+PT0173,Patient_173,53,Female,AB+,Private Ward,2024-11-01,2024-11-05,Neurology,Dr. Iyer,Asthma,Surgical,Yes,Available,106,4,6892,4490,1.7,No
+PT0174,Patient_174,69,Female,AB+,Private Ward,2024-11-16,2024-11-20,Orthopaedics,Dr. Rao,Migraine,Medical,No,Available,71,4,165750,71267,6.7,No
+PT0175,Patient_175,3,Male,A+,Emergency,2024-11-12,2024-11-20,Cardiology,Dr. Rao,Fracture,Medical,No,Available,39,8,188624,128973,2.1,No
+PT0176,Patient_176,64,Male,O-,Semi-Private,2024-08-12,2024-08-24,Gynaecology,Dr. Reddy,Appendicitis,Surgical,Yes,Available,6,12,66029,5911,8.1,No
+PT0177,Patient_177,10,Female,B+,Private Ward,2024-06-18,2024-06-20,Gynaecology,Dr. Iyer,Hypertension,Medical,No,Available,112,2,43296,3672,7.9,No
+PT0178,Patient_178,59,Male,B-,Semi-Private,2024-05-07,2024-05-14,Dermatology,Dr. Mehta,Appendicitis,Surgical,Yes,Available,103,7,121119,32396,7.6,Yes
+PT0179,Patient_179,47,Male,B-,General Ward,2024-10-08,2024-10-17,Paediatrics,Dr. Iyer,Appendicitis,Surgical,Yes,Occupied,20,9,71404,31537,8.1,No
+PT0180,Patient_180,61,Male,O-,General Ward,2024-10-26,2024-10-28,Paediatrics,Dr. Rao,Back Pain,Medical,No,Occupied,55,2,68724,585,6.6,Yes
+PT0181,Patient_181,63,Male,O-,Emergency,2024-11-16,2024-11-17,ENT,Dr. Reddy,Fever,Surgical,Yes,Occupied,12,1,98196,20174,4.4,Yes
+PT0182,Patient_182,38,Female,B-,Emergency,2024-03-09,2024-03-14,Neurology,Dr. Singh,Appendicitis,Medical,No,Available,120,5,15351,7951,3.5,No
+PT0183,Patient_183,20,Female,O+,ICU,2024-11-02,2024-11-17,General Medicine,Dr. Singh,Back Pain,Medical,No,Occupied,115,15,150364,21016,6.7,Yes
+PT0184,Patient_184,31,Female,A-,Emergency,2024-07-13,2024-07-25,Dermatology,Dr. Nair,Back Pain,Medical,No,Available,28,12,9907,5076,2.4,No
+PT0185,Patient_185,67,Male,A+,Private Ward,2024-05-24,2024-05-30,Neurology,Dr. Sharma,Fever,Surgical,Yes,Available,57,6,173009,84416,2.7,Yes
+PT0186,Patient_186,47,Male,A-,General Ward,2024-01-17,2024-01-27,Paediatrics,Dr. Reddy,Fracture,Surgical,Yes,Available,87,10,106868,64213,6.8,No
+PT0187,Patient_187,35,Male,A-,ICU,2024-07-03,2024-07-12,Orthopaedics,Dr. Nair,Fracture,Medical,No,Available,100,9,114039,48374,3.1,Yes
+PT0188,Patient_188,81,Male,AB+,General Ward,2024-07-16,2024-07-20,ENT,Dr. Reddy,Asthma,Medical,No,Available,29,4,142938,86098,2.5,No
+PT0189,Patient_189,77,Female,O-,ICU,2024-04-02,2024-04-11,General Medicine,Dr. Singh,Appendicitis,Medical,No,Available,56,9,137302,44238,6.7,No
+PT0190,Patient_190,71,Female,O-,Semi-Private,2024-06-14,2024-06-24,Oncology,Dr. Iyer,Hypertension,Medical,No,Available,35,10,152625,71516,9.8,No
+PT0191,Patient_191,39,Male,B-,ICU,2024-11-01,2024-11-02,Cardiology,Dr. Mehta,Migraine,Surgical,Yes,Occupied,71,1,40411,29174,5.1,No
+PT0192,Patient_192,33,Female,A-,Emergency,2024-03-20,2024-03-23,Dermatology,Dr. Nair,Fracture,Surgical,Yes,Available,38,3,101228,76304,8.1,No
+PT0193,Patient_193,74,Female,A-,General Ward,2024-03-29,2024-04-06,ENT,Dr. Singh,Asthma,Surgical,Yes,Available,110,8,185773,24999,8.8,No
+PT0194,Patient_194,81,Female,A+,ICU,2024-04-26,2024-05-08,General Medicine,Dr. Sharma,Appendicitis,Medical,No,Available,88,12,162889,121720,2.3,Yes
+PT0195,Patient_195,77,Male,B-,Semi-Private,2024-09-14,2024-09-26,Gynaecology,Dr. Iyer,Migraine,Medical,No,Available,33,12,45159,3310,1.7,No
+PT0196,Patient_196,52,Female,B+,Private Ward,2024-10-19,2024-10-31,Oncology,Dr. Nair,Back Pain,Surgical,Yes,Available,11,12,148694,52322,6.1,No
+PT0197,Patient_197,35,Female,O-,Emergency,2024-10-14,2024-10-24,Orthopaedics,Dr. Patel,Asthma,Surgical,Yes,Available,99,10,142428,32275,4.1,No
+PT0198,Patient_198,45,Female,B+,Semi-Private,2024-06-13,2024-06-19,Cardiology,Dr. Nair,Fever,Surgical,Yes,Available,81,6,176811,6345,2.4,No
+PT0199,Patient_199,2,Female,A-,ICU,2024-02-13,2024-02-15,Oncology,Dr. Reddy,Hypertension,Medical,No,Available,99,2,19296,3982,7.7,No
+PT0200,Patient_200,62,Male,A+,Semi-Private,2024-04-18,2024-04-22,General Medicine,Dr. Sharma,Diabetes,Medical,No,Available,74,4,142171,98350,3.6,No
