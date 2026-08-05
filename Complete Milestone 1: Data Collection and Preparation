@@ -1,0 +1,14 @@
+Successfully completed Milestone 1 of the MedTrack DV – Hospital Operations & Patient Analytics Dashboard project.
+
+Completed Tasks:
+• Collected and integrated the hospital dataset.
+• Uploaded hospital_raw_data.csv containing the original patient records.
+• Cleaned and preprocessed the dataset to remove duplicates and missing values.
+• Standardized department names and data formats.
+• Generated hospital_cleaned.csv for analysis.
+• Developed data_collection.py for data collection and integration.
+• Created hospital_cleaning.ipynb to perform data preprocessing and transformation.
+• Verified data quality and prepared the dataset for Tableau visualization.
+• Updated the project documentation and repository structure.
+
+Milestone 1 deliverables are successfully completed and the project is now ready for Milestone 2: KPI Engineering and Dashboard Planning.
