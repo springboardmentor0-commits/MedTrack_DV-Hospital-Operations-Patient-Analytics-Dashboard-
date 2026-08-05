@@ -1,0 +1,34 @@
+# MILESTONE 2: KPI ENGINEERING & DASHBOARD PLANNING
+
+## Objective
+To transform the cleaned hospital dataset into healthcare KPIs and design interactive Tableau dashboards for hospital operations analysis.
+
+## Deliverables
+- hospital_final_dataset.xlsx
+- generate_hospital_kpis.py
+- dashboard_storyboard.pdf
+- medtrack_prototype.twbx
+
+## KPIs
+- Total Admissions
+- Occupancy Rate
+- Average Length of Stay (ALOS)
+- Readmission Rate
+- Bed Utilization
+- Department Efficiency
+
+## Dashboards
+1. Hospital Overview
+2. Patient Flow
+3. Department Analytics
+4. Resource Utilization
+
+## Tools Used
+- Python
+- Pandas
+- NumPy
+- Tableau Public
+- GitHub
+
+## Status
+Milestone 2 Completed
