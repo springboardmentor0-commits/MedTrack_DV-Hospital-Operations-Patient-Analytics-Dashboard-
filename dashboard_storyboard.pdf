@@ -1,0 +1,151 @@
+Dashboard Storyboard
+MedTrack DV – Hospital Operations & Patient Analytics Dashboard
+
+Module 4 – Dashboard Planning & Prototyping
+
+Prepared By:
+Keerthi K M
+
+1. Introduction
+Purpose
+
+The Dashboard Storyboard defines the layout, visual components, key performance indicators (KPIs), filters, and navigation flow for the MedTrack DV Tableau dashboards.
+
+The objective is to create an interactive dashboard that helps hospital administrators monitor patient admissions, department performance, resource utilization, and overall hospital operations.
+
+2. Dashboard Architecture
+Hospital Overview
+        │
+        ▼
+Patient Flow
+        │
+        ▼
+Department Analytics
+        │
+        ▼
+Resource Utilization
+
+The dashboards are interconnected and share common filters for seamless navigation.
+
+3. Dashboard 1 – Hospital Overview
+Objective
+
+Provide an overall summary of hospital performance through key operational metrics.
+
+KPIs
+-Total Admissions
+-Occupancy Rate
+-Average Length of Stay
+-Bed Utilization Rate
+-Total Revenue
+-Department Efficiency Score
+
+Charts
+-KPI Cards
+-Monthly Admissions Trend (Line Chart)
+-Department-wise Admissions (Bar Chart)
+-Revenue by Department (Bar Chart)
+-Patient Distribution by Diagnosis (Pie Chart)
+
+Filters
+-Admission Date
+-Department
+-Diagnosis
+-Gender
+
+5. Dashboard 3 – Department Analytics
+Objective
+
+Analyze department performance and doctor workload.
+
+KPIs
+-Department Admissions
+-Department Efficiency Score
+-Average Length of Stay
+-Total Revenue by Department
+
+Charts
+-Department Admissions (Bar Chart)
+-Department Efficiency (Horizontal Bar Chart)
+-Revenue by Department
+-Doctor-wise Patient Count
+-Specialization Distribution
+
+Filters
+-Department
+-Doctor
+-Specialization
+-Admission Date
+
+6. Dashboard 4 – Resource Utilization
+Objective
+
+Monitor hospital resource utilization and bed allocation.
+
+KPIs
+-Occupancy Rate
+-Bed Utilization Rate
+-Occupied Beds
+-Vacant Beds
+
+Charts
+-Ward-wise Bed Occupancy
+-Bed Type Distribution
+-Floor-wise Occupancy
+-Occupied vs Vacant Beds
+-Surgery Distribution
+
+Filters
+-Ward
+-Bed Type
+-Floor
+-Department
+
+7. Global Filters
+
+The following filters will be available across all dashboards.
+
+Admission Date
+Department
+Doctor
+Diagnosis
+Gender
+Age Group
+Ward
+Bed Type
+Admission Status
+
+8. Dashboard Navigation
+
+Navigation buttons will be provided to switch between the dashboards.
+
+Hospital Overview
+
+↓
+
+Patient Flow
+
+↓
+
+Department Analytics
+
+↓
+
+Resource Utilization
+
+A Home button will be available on each dashboard for quick navigation.
+
+9. Expected Outcome
+
+The dashboard suite will provide:
+
+Hospital performance monitoring
+Patient admission analysis
+Department performance evaluation
+Resource utilization tracking
+Financial performance overview
+Interactive filtering and navigation
+
+10. Conclusion
+
+This storyboard serves as the design blueprint for the MedTrack DV Tableau dashboards. The proposed layouts, KPIs, visualizations, filters, and navigation ensure a structured and user-friendly dashboard that supports healthcare analytics and operational decision-making.
