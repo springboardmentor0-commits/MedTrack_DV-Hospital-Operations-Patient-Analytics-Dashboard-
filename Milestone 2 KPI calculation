@@ -1,0 +1,445 @@
+# MEDTRACK DV – KPI CALCULATIONS
+## MILESTONE 2 – KPI ENGINEERING & DASHBOARD PLANNING
+
+This document contains the KPI calculations and Tableau calculated fields used in the MedTrack DV – Hospital Operations & Patient Analytics Dashboard.
+
+---
+
+# 1. TOTAL ADMISSIONS
+
+## Calculated Field Name
+Total Admissions
+
+## Tableau Formula
+
+COUNT([Patient ID])
+
+## Description
+Counts the total number of patient admission records available in the dataset.
+
+## Purpose
+- Measures hospital patient volume.
+- Monitors admission workload.
+- Supports hospital capacity planning.
+
+## Visualization
+KPI Card
+
+---
+
+# 2. AVERAGE LENGTH OF STAY (ALOS)
+
+## Calculated Field Name
+Average Length of Stay
+
+## Tableau Formula
+
+AVG([Length of Stay])
+
+## Alternative Formula
+
+If the dataset column is named `Length of Stay (days)`:
+
+AVG([Length of Stay (days)])
+
+## Description
+Calculates the average number of days patients stay in the hospital.
+
+## Purpose
+- Measures treatment efficiency.
+- Helps analyze patient flow.
+- Supports bed management.
+
+## Visualization
+KPI Card and Bar Chart
+
+---
+
+# 3. READMITTED PATIENTS
+
+## Calculated Field Name
+Readmitted Patients
+
+## Tableau Formula
+
+SUM(
+    IF [Re-admission Flag] = "Yes"
+    THEN 1
+    ELSE 0
+    END
+)
+
+## Description
+Counts the number of patients whose Re-admission Flag is marked as "Yes".
+
+## Purpose
+- Identifies readmitted patients.
+- Supports readmission analysis.
+- Helps evaluate patient care outcomes.
+
+---
+
+# 4. READMISSION RATE
+
+## Calculated Field Name
+Readmission Rate
+
+## Tableau Formula
+
+SUM(
+    IF [Re-admission Flag] = "Yes"
+    THEN 1
+    ELSE 0
+    END
+)
+/
+COUNT([Patient ID])
+
+## Format
+
+Format the calculated field as Percentage.
+
+## Description
+Measures the proportion of patients who were marked as readmitted.
+
+## Purpose
+- Monitors readmission patterns.
+- Supports healthcare quality analysis.
+- Helps identify potential patient-care issues.
+
+## Visualization
+KPI Card and Line Chart
+
+---
+
+# 5. OCCUPIED PATIENTS
+
+## Calculated Field Name
+Occupied Patients
+
+## Tableau Formula
+
+SUM(
+    IF [Bed Status] = "Occupied"
+    THEN 1
+    ELSE 0
+    END
+)
+
+## Description
+Counts patient records where the Bed Status is "Occupied".
+
+## Purpose
+- Analyzes occupied patient records.
+- Supports ward-level resource analysis.
+- Helps understand bed-status distribution.
+
+## Visualization
+KPI Card and Bar Chart
+
+---
+
+# 6. OCCUPANCY RATE
+
+## Important Dataset Note
+
+A true hospital occupancy rate requires reliable total-bed-capacity information.
+
+## Formula
+
+SUM(
+    IF [Bed Status] = "Occupied"
+    THEN 1
+    ELSE 0
+    END
+)
+/
+SUM([Total Beds])
+
+## Format
+
+Format as Percentage.
+
+## Important
+
+If the dataset does NOT contain a `Total Beds` field, this calculation should not be presented as a true hospital occupancy rate.
+
+Instead, use:
+
+Occupied Patients
+
+or:
+
+Bed Utilization by Ward
+
+This avoids creating an unsupported denominator.
+
+---
+
+# 7. BED UTILIZATION BY WARD
+
+## Calculated Field Name
+Bed Utilization
+
+## Tableau Formula
+
+COUNT([Patient ID])
+
+## Rows
+
+Ward
+
+## Columns
+
+COUNT([Patient ID])
+
+## Chart Type
+
+Horizontal Bar Chart
+
+## Description
+Shows the number of patient records associated with each hospital ward.
+
+## Purpose
+- Compares ward-level workload.
+- Identifies heavily utilized wards.
+- Supports resource planning.
+
+---
+
+# 8. DEPARTMENT PATIENT COUNT
+
+## Calculated Field Name
+Department Patient Count
+
+## Tableau Formula
+
+COUNT([Patient ID])
+
+## Rows
+
+Department
+
+## Columns
+
+COUNT([Patient ID])
+
+## Chart Type
+
+Bar Chart
+
+## Description
+Measures the number of patients handled by each hospital department.
+
+## Purpose
+- Compares department workload.
+- Identifies high-volume departments.
+- Supports resource allocation.
+
+---
+
+# 9. MONTHLY ADMISSION TREND
+
+## Chart Type
+
+Line Chart
+
+## Columns
+
+Admission Date → Month
+
+## Rows
+
+COUNT([Patient ID])
+
+## Description
+
+Shows the number of hospital admissions for each month.
+
+## Purpose
+
+- Identifies admission patterns.
+- Shows monthly patient inflow.
+- Helps identify periods of high or low demand.
+
+---
+
+# 10. MONTHLY READMISSION TREND
+
+## Chart Type
+
+Line Chart
+
+## Columns
+
+Admission Date → Month
+
+## Rows
+
+Readmission Rate
+
+## Description
+
+Shows how the readmission rate changes over time.
+
+## Purpose
+
+- Monitors readmission patterns.
+- Identifies changes in patient outcomes.
+- Supports healthcare quality analysis.
+
+---
+
+# 11. MONTHLY OCCUPANCY / RESOURCE TREND
+
+## Chart Type
+
+Line Chart
+
+## Columns
+
+Admission Date → Month
+
+## Rows
+
+Occupied Patients
+
+## Description
+
+Shows the monthly trend of occupied patient records.
+
+## Purpose
+
+- Monitors resource usage over time.
+- Identifies periods of higher patient demand.
+- Supports hospital planning.
+
+---
+
+# DASHBOARD 1 – HOSPITAL OVERVIEW
+
+## KPI CARDS
+
+1. Total Admissions
+2. Occupied Patients / Bed Utilization
+3. Average Length of Stay
+4. Readmission Rate
+
+## Charts
+
+1. Monthly Admission Trend
+2. Monthly Readmission Trend
+3. Monthly Occupied Patient Trend
+
+## Purpose
+
+Provides a high-level overview of hospital operations and patient performance.
+
+---
+
+# DASHBOARD 2 – DEPARTMENT ANALYTICS
+
+## Visualizations
+
+1. Department-wise Patient Count
+2. Average Length of Stay by Department
+3. Readmission Rate by Department
+4. Department Efficiency
+
+## Purpose
+
+Compares hospital departments based on patient workload and performance.
+
+---
+
+# DASHBOARD 3 – PATIENT FLOW
+
+## Visualizations
+
+1. Monthly Patient Flow
+2. Admission Trend
+3. Discharge Trend
+4. Patient Flow by Department
+5. Patient Flow by Ward
+
+## Purpose
+
+Analyzes patient movement through the hospital.
+
+---
+
+# DASHBOARD 4 – RESOURCE UTILIZATION
+
+## Visualizations
+
+1. Bed Utilization by Ward
+2. Patient Distribution by Ward
+3. Bed Status Distribution
+4. Ward-wise Patient Count
+
+## Purpose
+
+Analyzes hospital resource and ward utilization.
+
+---
+
+# MAIN KPI SUMMARY
+
+| KPI | Tableau Calculation | Visualization |
+|---|---|---|
+| Total Admissions | COUNT([Patient ID]) | KPI Card |
+| Average Length of Stay | AVG([Length of Stay]) | KPI Card |
+| Readmitted Patients | IF Re-admission Flag = Yes | KPI Card |
+| Readmission Rate | Readmitted Patients / Total Patients | KPI Card |
+| Occupied Patients | IF Bed Status = Occupied | KPI Card |
+| Bed Utilization | COUNT([Patient ID]) by Ward | Bar Chart |
+| Department Patient Count | COUNT([Patient ID]) by Department | Bar Chart |
+
+---
+
+# KPI ENGINEERING WORKFLOW
+
+hospital_cleaned.csv
+        ↓
+Load Dataset into Tableau
+        ↓
+Create Calculated Fields
+        ↓
+Calculate KPIs
+        ↓
+Create KPI Cards
+        ↓
+Create Charts
+        ↓
+Create Dashboards
+        ↓
+Publish Tableau Dashboard
+
+---
+
+# TECHNOLOGIES USED
+
+- Python
+- Pandas
+- NumPy
+- Tableau Public
+- Jupyter Notebook
+- GitHub
+
+---
+
+# MILESTONE 2 DELIVERABLES
+
+- hospital_final_dataset.xlsx
+- generate_hospital_kpis.py
+- dashboard_storyboard.pdf
+- medtrack_prototype.twb
+- medtrack_prototype.twbx
+
+---
+
+# PROJECT OUTCOME
+
+The KPI calculations transform the cleaned hospital dataset into meaningful healthcare metrics. These metrics are used to create interactive Tableau dashboards for monitoring patient admissions, length of stay, readmissions, departmental workload, ward utilization, and hospital operations.
+
+The dashboards support data-driven decision-making and help identify important operational trends in the hospital.
